@@ -1,0 +1,17 @@
+name: NeroAPI
+version: "1.17-1.20.1-RELEASE"
+main: live.nerotv.api.paper.Preloader
+api-version: "1.20"
+prefix: NeroAPI
+loadbefore: [ ProjectsBase, KnockIT, Lobbysystem, Creative, FFA, SkyBlock ]
+authors: [ DannyTheOne, Craydan, nerotvlive ]
+description: Base API for nerotvlive plugins
+website: https://nerotv.live
+
+commands:
+  version:
+    aliases: [versions,neroapi,nero,api]
+  coins:
+  register:
+  getid:
+    aliases: [sid,serverid]

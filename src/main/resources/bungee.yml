@@ -1,0 +1,36 @@
+name: NeroAPI
+version: "1.17-1.20.1-RELEASE"
+main: live.nerotv.api.cloud.Cloudsystem
+api-version: "1.20"
+prefix: NeroAPI
+authors: [ DannyTheOne, Craydan, nerotvlive ]
+author: nerotvlive
+description: Base API for nerotvlive plugins
+website: https://nerotv.live
+
+commands:
+  GetProxyID:
+  RegisterProxy:
+  Ban:
+  IPBan:
+    aliases: [banip]
+  Unban:
+    aliases: [pardon]
+  Kick:
+  Disconnect:
+    aliases: [disc,dc,quit]
+  Lobby:
+    aliases: [hub,l]
+  Banlist:
+    aliases: [blist]
+  ServerMOTD:
+    aliases: [motd]
+  BungeeBase:
+    aliases: [author,autor,plugin,dev,developer,pl,plugins]
+  Get:
+  Teamchat:
+    aliases: [tc]
+  bungeemaintenance:
+    aliases: [bmain]
+  bsrl:
+    aliases: [bungeestop]
