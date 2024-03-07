@@ -1,10 +1,12 @@
 package live.nerotv.api.paper.listeners;
 
+import com.destroystokyo.paper.event.server.PaperServerListPingEvent;
 import live.nerotv.api.paper.Nero;
 import live.nerotv.api.paper.utils.user.User;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerPreLoginEvent;
+import org.bukkit.event.server.ServerListPingEvent;
 
 public class PlayerConnectListener implements Listener {
 

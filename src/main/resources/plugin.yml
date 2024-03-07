@@ -1,5 +1,5 @@
 name: NeroAPI
-version: "1.17-1.20.1-RELEASE"
+version: "2023.3-1.20.2-RELEASE"
 main: live.nerotv.api.paper.Preloader
 api-version: "1.20"
 prefix: NeroAPI

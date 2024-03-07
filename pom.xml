@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>live.nerotv</groupId>
     <artifactId>api</artifactId>
-    <version>latest</version>
+    <version>2024.3-final</version>
     <packaging>jar</packaging>
     <name>NeroAPI</name>
     <description>Base API for nerotvlive plugins</description>
@@ -77,7 +77,7 @@
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
-            <version>1.20.1-R0.1-SNAPSHOT</version>
+            <version>1.20.2-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -97,7 +97,7 @@
             <artifactId>vault</artifactId>
             <version>1.7.3</version>
             <scope>system</scope>
-            <systemPath>/Users/nerotvlive/Library/CloudStorage/OneDrive-Persönlich/Dokumente/Libs/Vault.jar</systemPath>
+            <systemPath>A:\Sync\OneDrive\Dokumente\Libs\Vault.jar</systemPath>
         </dependency>
     </dependencies>
 </project>
